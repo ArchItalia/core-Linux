@@ -1,0 +1,5 @@
+root:x:0:root
+adm:x:4:userarch
+wheel:x:10:userarch
+uucp:x:14:userarch
+userarch:x:1000:
