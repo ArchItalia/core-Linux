@@ -1,2 +1,3 @@
 # core-linux
-![Screenshot from 2023-07-24 11-19-46](https://github.com/ArchItalia/core-linux/assets/117321045/00824ed8-d65f-4a29-990c-6b51f56e691d)
+
+![Screenshot from 2023-07-27 19-48-09](https://github.com/ArchItalia/core-linux/assets/117321045/6c07a8d7-c2db-4cb6-a5f4-b8620cf36f7c)
