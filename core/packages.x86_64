@@ -152,7 +152,6 @@ git
 evince
 libnotify
 htop
-neofetch
 timeshift
 
 
@@ -163,7 +162,7 @@ core-gtk-theme
 core-gnome-backgrounds
 core-icons-theme
 core-keyring
-core-extensions-base
+#core-extensions-base
 core-terminal-nord-theme
 gnome-shell-extension-desktop-icons-ng
 

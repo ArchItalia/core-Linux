@@ -7,7 +7,7 @@
 
 
 
-date=$(date +'%e-%m-%Y')
+date=$(date +'%m-%Y')
 live="live-$date"
 dir="core"
 
