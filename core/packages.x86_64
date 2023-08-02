@@ -153,20 +153,20 @@ evince
 libnotify
 htop
 timeshift
-
+gum
 
 
 # ------ core packages
+installcore
 architalia-fonts
 core-gtk-theme
 core-gnome-backgrounds
 core-icons-theme
 core-keyring
-#core-extensions-base
 core-terminal-nord-theme
 gnome-shell-extension-desktop-icons-ng
 
-# ---------- jade
-gum
+
+
 
 

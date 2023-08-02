@@ -24,8 +24,7 @@ file_permissions=(
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/usr/bin/core-brain"]="0:0:755"
   ["/usr/bin/updates"]="0:0:755"
-  ["/usr/bin/installcore"]="0:0:755"
-  ["/usr/bin/coremio"]="0:0:755"
+
  
   
   
