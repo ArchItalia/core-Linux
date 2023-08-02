@@ -154,7 +154,7 @@ libnotify
 htop
 timeshift
 gum
-
+neofetch
 
 # ------ core packages
 installcore
