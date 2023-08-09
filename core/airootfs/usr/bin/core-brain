@@ -12,11 +12,12 @@ ex3=$(gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com)
 ex4=$(gnome-extensions enable arch-update@RaphaelRochet)
 ex5=$(gnome-extensions enable lockkeys@vaina.lt)
 ex6=$(gnome-extensions enable nightthemeswitcher@romainvigier.fr)
+ex7=$(gnome-extensions enable dash-to-dock@micxgx.gmail.com)
 
 shell=$(gsettings set org.gnome.shell.extensions.user-theme name "Core")
 legacx=$(gsettings set org.gnome.desktop.interface gtk-theme "Core")
-icn=$(gsettings set org.gnome.desktop.interface icon-theme 'Core')
-cur=$(gsettings set org.gnome.desktop.interface cursor-theme 'Core')
+icn=$(gsettings set org.gnome.desktop.interface icon-theme 'Papirus-Dark')
+#cur=$(gsettings set org.gnome.desktop.interface cursor-theme 'Core')
 nauicn=$(gsettings set org.gnome.nautilus.icon-view default-zoom-level small-plus)
 fnts=$(gsettings set org.gnome.desktop.interface font-name 'Architalia Regular 12')
 fnts2=$(gsettings set org.gnome.desktop.wm.preferences titlebar-font 'Architalia Bold 12')
@@ -34,13 +35,14 @@ start(){
    $ex4
    $ex5
    $ex6
-
+   $ex7
+   
    $shell
    $legacx
    $bk
    $bk2
    $icn
-   $cur
+  # $cur
    $nauicn
    $fnts
    $fnts2
@@ -52,7 +54,7 @@ start(){
    
   # chmod -R +x $HOME/Installscript/*
    cp -rp $HOME/.config/.zshrc $HOME/
-   
+   cp -rp /etc/core/lsb-release /etc/
    rm -rf $HOME/.config/autostart/start.desktop
 }
 

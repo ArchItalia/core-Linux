@@ -162,7 +162,8 @@ installcore
 architalia-fonts
 core-gtk-theme
 core-gnome-backgrounds
-core-icons-theme
+#core-icons-theme
+papirus-icon-theme
 core-keyring
 core-terminal-nord-theme
 gnome-shell-extension-desktop-icons-ng
