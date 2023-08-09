@@ -1,5 +1,5 @@
 # architalia 
-alias neofetch='neofetch --source /usr/share/info/ascii-core.txt
+
 if [ -r ~/.zshrc -a -r ~/.zshrc.global -a ! -r ~/.zshrc.local ] ; then
     printf '-!-\n'
     printf '-!- Looks like you are using the old zshrc layout of grml.\n'
@@ -11,7 +11,7 @@ if [ -r ~/.zshrc -a -r ~/.zshrc.global -a ! -r ~/.zshrc.local ] ; then
     printf '-!-\n'
 fi
 sudo su
-neofetch
+
 
 
 
