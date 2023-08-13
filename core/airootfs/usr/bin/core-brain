@@ -51,10 +51,7 @@ start(){
    $vol
    
    $terminal
-   ln -s $HOME/.local/share/applications/installcore.desktop $HOME/Desktop/
-   gio set $HOME/Desktop/installcore.desktop "metadata::trusted" yes
-   gio set $HOME/Desktop/installcore.desktop "metadata::allow-exec" yes
-   gio set $HOME/Desktop/installcore.desktop "metadata::no-display" no
+
    cp -rp $HOME/.config/.zshrc $HOME/
    cp -rp /etc/core/lsb-release /etc/
    rm -rf $HOME/.config/autostart/start.desktop
