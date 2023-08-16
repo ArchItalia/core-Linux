@@ -3,9 +3,8 @@
 # Author : Jonathan Sanfilippo
 # Date: Jun 2023
 # Version 1.0.0: archiso configurazione e script
-
-bk=$(gsettings set org.gnome.desktop.background  picture-uri /usr/share/backgrounds/core/core.jpg)
-bk2=$(gsettings set org.gnome.desktop.background  picture-uri-dark /usr/share/backgrounds/core/core.jpg)
+bk=$(gsettings set org.gnome.desktop.background  picture-uri /usr/share/backgrounds/core/himalaya-day.png)
+bk2=$(gsettings set org.gnome.desktop.background  picture-uri-dark /usr/share/backgrounds/core/himalaya-night.png)
 ex1=$(gnome-extensions enable  user-theme@gnome-shell-extensions.gcampax.github.com)
 ex2=$(gnome-extensions enable ding@rastersoft.com)
 ex3=$(gnome-extensions enable appindicatorsupport@rgcjonas.gmail.com)
